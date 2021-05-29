@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void Skip()
+   public void Skip()
     {
-        Intent intent=new Intent(this, Location.class);
+        Intent intent=new Intent(this, Geolocation.class);
         startActivity(intent);
     }
     public void feedbackinput(View view) {
